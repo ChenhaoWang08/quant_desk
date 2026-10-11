@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+*.bak
+
+# Never commit user data, SQLite journals or project state.
+data/*
+!data/.gitkeep
+
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.tmp
+.env
